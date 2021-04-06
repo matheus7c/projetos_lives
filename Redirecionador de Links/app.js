@@ -13,18 +13,18 @@ const LinkSchema = new mongoose.Schema({
 
 const Link = mongoose.model('Link', LinkSchema);
 
-// let link = new Link({
-//     title: 'Youtube',
-//     description: 'Esse link vai para o Youtube',
-//     url: 'https://www.youtube.com/channel/UCZgELbe4_J5g6cV6z01e_ww',
-//     click:0,
-// });
+// // let link = new Link({
+// //     title: 'Youtube',
+// //     description: 'Esse link vai para o Youtube',
+// //     url: 'https://www.youtube.com/channel/UCZgELbe4_J5g6cV6z01e_ww',
+// //     click:0,
+// // });
 
-// link.save().then(doc => {
-//     console.log(doc);
-// }).catch(error => {
-//     console.log(error);
-// });
+// // link.save().then(doc => {
+// //     console.log(doc);
+// // }).catch(error => {
+// //     console.log(error);
+// // });
 
 mongoose.connect('mongodb://localhost/newLinks', {
     useNewUrlParser: true,
