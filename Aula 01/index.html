@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Aula 01</title>
+    <style>
+        .fundo-azul{
+            background-color: rgb(133, 133, 250);
+            text-align: center;
+        }
+        .fonte-bonita{
+            font-family: Verdana;
+        }
+        /* Estilo do Botão */
+        button{
+            font-size: 30px;
+            width: 400px;
+            height: 100px;
+            background-color: red;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    
+    <!-- Inicio parte 1 site -->
+    <div class="fundo-azul">
+        <h1 class="fonte-bonita">Parte 1 do meu site</h1>
+    </div>
+    <!-- Final parte 1 do site -->
+
+    <!-- Titulo 2 -->
+    <div class="fundo-azul">
+        <h1 class="fonte-bonita">Parte 2 do meu site</h1>
+    </div>
+
+    <!-- Isso é um botão -->
+    <button onclick="clicou()">Clicou</button>
+
+    <!-- A partir daqui somente código em javascript -->
+    <script>
+        // Função de clicou no botão
+        function clicou(){
+            console.log('Alguem clicou no botão')
+        }
+    </script>
+</body>
+
+</html>
