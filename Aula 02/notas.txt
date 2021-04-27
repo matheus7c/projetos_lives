@@ -1,0 +1,18 @@
+1 - Aprofundar mais em HTML e CSS
+-Mais Tags e Atributos HTML
+-Mais propriedades CSS (Interno, Inline, Externo)
+
+2 - Mostrar do código
+
+3 - Coloca a mão na massa
+
+
+Diferença entre Class e id?
+-Class e o ID servem para referencia a estrutura que queremos modificar
+-Class são classes: É mais de um
+-Id é APENAS UM
+
+Diferença entre CSS inline, interno e externo:
+-inline fica junto a linha de código do HTML
+-interno fica dentro do HEAD 
+-externo é um arquivo fora da página.

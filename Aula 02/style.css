@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.caixa{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 28px;
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 30px;
+}
+
+.titulos ul{
+    list-style: none;
+    display: flex;
+}
+
+.titulos li{
+    margin-right: 50px;    
+}
+
+.logo{
+    color: rgb(255, 0, 0);
+    padding-left: 50px;
+}
