@@ -1,0 +1,24 @@
+#Botao{
+  width: 350px;
+  height: 150px;
+  
+}
+
+
+#foto{
+  width: 600px;
+}
+
+.container{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.container h3{
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  font-size: 25px;
+  margin-left: 25px;
+  text-transform: uppercase;
+}

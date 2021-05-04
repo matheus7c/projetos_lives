@@ -1,0 +1,13 @@
+1 - Tags: 
+Link, 
+botão(a, button), 
+Imagem, 
+video 
+audio
+    Tamanhos no CSS: px e %
+    Projeto telas diferentes
+
+2 - Mostrar do código
+
+3 - Colocar a mão na massa
+
